@@ -15,6 +15,9 @@
 		A73AE887236FEA26005E1151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE886236FEA26005E1151 /* main.m */; };
 		A73AE891236FEA26005E1151 /* UISecondWeekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE890236FEA26005E1151 /* UISecondWeekTests.m */; };
 		A73AE89C236FEA26005E1151 /* UISecondWeekUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE89B236FEA26005E1151 /* UISecondWeekUITests.m */; };
+		A73AE8AD236FECCC005E1151 /* TableViewTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE8AC236FECCC005E1151 /* TableViewTestCell.m */; };
+		A73AE8B2236FF01E005E1151 /* TableViewTestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73AE8B1236FF01E005E1151 /* TableViewTestCell.xib */; };
+		A73AE8B5236FFCD3005E1151 /* ViewControllerDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE8B4236FFCD3005E1151 /* ViewControllerDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		A73AE897236FEA26005E1151 /* UISecondWeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISecondWeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73AE89B236FEA26005E1151 /* UISecondWeekUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISecondWeekUITests.m; sourceTree = "<group>"; };
 		A73AE89D236FEA26005E1151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73AE8AB236FECCC005E1151 /* TableViewTestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewTestCell.h; sourceTree = "<group>"; };
+		A73AE8AC236FECCC005E1151 /* TableViewTestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestCell.m; sourceTree = "<group>"; };
+		A73AE8B1236FF01E005E1151 /* TableViewTestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewTestCell.xib; sourceTree = "<group>"; };
+		A73AE8B3236FFCD3005E1151 /* ViewControllerDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerDetails.h; sourceTree = "<group>"; };
+		A73AE8B4236FFCD3005E1151 /* ViewControllerDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		A73AE86B236FEA25005E1151 = {
 			isa = PBXGroup;
 			children = (
+				A73AE8AE236FECE5005E1151 /* Cells */,
 				A73AE876236FEA25005E1151 /* UISecondWeek */,
 				A73AE88F236FEA26005E1151 /* UISecondWeekTests */,
 				A73AE89A236FEA26005E1151 /* UISecondWeekUITests */,
@@ -105,6 +114,8 @@
 				A73AE878236FEA25005E1151 /* AppDelegate.m */,
 				A73AE87A236FEA25005E1151 /* ViewController.h */,
 				A73AE87B236FEA25005E1151 /* ViewController.m */,
+				A73AE8B3236FFCD3005E1151 /* ViewControllerDetails.h */,
+				A73AE8B4236FFCD3005E1151 /* ViewControllerDetails.m */,
 				A73AE87D236FEA25005E1151 /* Main.storyboard */,
 				A73AE880236FEA26005E1151 /* Assets.xcassets */,
 				A73AE882236FEA26005E1151 /* LaunchScreen.storyboard */,
@@ -130,6 +141,16 @@
 				A73AE89D236FEA26005E1151 /* Info.plist */,
 			);
 			path = UISecondWeekUITests;
+			sourceTree = "<group>";
+		};
+		A73AE8AE236FECE5005E1151 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A73AE8AB236FECCC005E1151 /* TableViewTestCell.h */,
+				A73AE8AC236FECCC005E1151 /* TableViewTestCell.m */,
+				A73AE8B1236FF01E005E1151 /* TableViewTestCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A73AE884236FEA26005E1151 /* LaunchScreen.storyboard in Resources */,
+				A73AE8B2236FF01E005E1151 /* TableViewTestCell.xib in Resources */,
 				A73AE881236FEA26005E1151 /* Assets.xcassets in Resources */,
 				A73AE87F236FEA25005E1151 /* Main.storyboard in Resources */,
 			);
@@ -262,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73AE8B5236FFCD3005E1151 /* ViewControllerDetails.m in Sources */,
 				A73AE87C236FEA25005E1151 /* ViewController.m in Sources */,
+				A73AE8AD236FECCC005E1151 /* TableViewTestCell.m in Sources */,
 				A73AE887236FEA26005E1151 /* main.m in Sources */,
 				A73AE879236FEA25005E1151 /* AppDelegate.m in Sources */,
 			);
